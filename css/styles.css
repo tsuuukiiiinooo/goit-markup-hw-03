@@ -1,0 +1,231 @@
+:root {
+    --iris:#4D5AE5;
+    --navy-blue-color:#2E2F42;
+    --ocean:#404BBF;
+    --cloud:#F4F4FD;
+    --white:#FFFFFF;
+    --cornflower : #E7E9FC;
+    --slate: #434455;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  } 
+
+.list {
+    list-style: none;
+}
+.link  {
+    text-decoration: none;
+}
+
+.body-inf {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: var(--navy-blue-color);
+}
+
+.logo-web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: var(--iris);
+}
+.logo-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue-color)
+}
+
+.menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color)
+}
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.contact-link:active,
+.menu-item:active,
+.menu-item:hover, 
+.contact-link:hover,
+.menu-item:focus, 
+.contact-link:focus{
+    color: var(--ocean);
+}
+
+
+.contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.section-main {
+    background: var(--navy-blue-color);
+}
+
+.main-headline {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+.not-main-headline {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
+.modal-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background: var(--iris);
+    cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: var(--ocean);
+}
+
+.headline-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.list-about-us {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.section-our-team {
+    background-color: var(--cloud);
+}
+
+.our-team-headline {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.card-of-emp {
+    background-color: var(--white);
+}
+
+.name-emp {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.job-tittle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.footer {
+    background-color: var(--navy-blue-color);
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cornflower);
+}
+.logo-studio-footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);
+}
+
+/* for portfolio*/
+
+.modal-btn-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background: var(--cloud);
+    cursor: pointer;
+}
+
+.modal-btn-list:hover,
+.modal-btn-list:focus{
+    color: var(--white);
+    background: var(--ocean);
+}
+
+.mini-headlines-lst-prj {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navy-blue-color);
+}
+
+.name-of-prjct {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--slate);
+}
+
+.list-projects:hover {
+    cursor: pointer;
+}
