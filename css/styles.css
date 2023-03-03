@@ -398,9 +398,9 @@ h3 {
 
 .list-item-projects {
     display: flex;
-    gap: 15px;
+    /* gap: 15px; */
     row-gap: 48px;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 84px;
     flex-wrap: wrap;
 }
