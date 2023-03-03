@@ -334,8 +334,7 @@ h3 {
 /* MODAL LIST BUTTON */
 
 .description-to-project{
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding: 16px;
 }
 
 .button-list {
@@ -388,9 +387,9 @@ h3 {
     color: var(--slate);
 }
 
-.item-projects {
+/* .item-projects {
     border: 1px solid #E7E9FC;
-}
+} */
 
 .item-projects:hover {
     cursor: pointer;
@@ -411,7 +410,6 @@ h3 {
 }
 
 .description-to-project {
-    padding-left: 16px;
-    /* 
-    border: 1px solid #E7E9FC; */
+    border: 1px solid #E7E9FC;
+    border-top: 0;
 }
