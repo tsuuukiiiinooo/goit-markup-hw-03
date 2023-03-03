@@ -248,7 +248,7 @@ h3 {
     background-color: var(--cloud);
 }
 
-.not-main-headline {
+.container-wht-are-we-doing {
     text-align: center;
 }
 
@@ -405,10 +405,9 @@ h3 {
     flex-wrap: wrap;
 }
 
-.container-list-buttons-projects {
+.section-list-buttons-projects {
     padding-top: 100px;
     padding-bottom: 120px;
-    
 }
 
 .description-to-project {
