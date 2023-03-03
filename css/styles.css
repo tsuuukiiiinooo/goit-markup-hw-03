@@ -387,7 +387,7 @@ h3 {
 }
 
 .item-projects {
-    border: 1px solid var(--cornflower);
+    border: 1px solid #E7E9FC;
 }
 
 .item-projects:hover {
@@ -408,4 +408,10 @@ h3 {
     padding-top: 100px;
     padding-bottom: 120px;
     
+}
+
+.description-to-project {
+    padding-left: 16px;
+    /* 
+    border: 1px solid #E7E9FC; */
 }
