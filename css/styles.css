@@ -55,7 +55,7 @@ img {
 .container {
     width: 100%;
     max-width: 1158px;
-    padding: 0, 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -213,6 +213,11 @@ h3 {
 
 /* ABOUT US */
 
+.section-wht-they-doing {
+    text-align: center;
+}
+
+
 .section-about-us {
     padding-top: 120px;
 }
@@ -245,10 +250,6 @@ h3 {
 
 .section-our-team {
     background-color: var(--cloud);
-}
-
-.container-wht-are-we-doing {
-    text-align: center;
 }
 
 .our-team-headline {
