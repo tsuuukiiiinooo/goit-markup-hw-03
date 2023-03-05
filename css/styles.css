@@ -53,11 +53,10 @@ img {
 }
 
 .container {
+    width: 100%;
     max-width: 1158px;
-    margin-left: 0 15px;
-    margin-right: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0, 15px;
+    margin: 0 auto;
 }
 
 /* header */
@@ -159,8 +158,8 @@ h3 {
     letter-spacing: 0.02em;
     color: var(--white);
     width: 496px;
-    justify-content: center;
-    margin-left: 331px;
+    align-content: center;
+    margin: 0 auto;
 
 }
 
@@ -220,8 +219,8 @@ h3 {
 
 .about-us {
     display: flex;
-    margin-left: 156px;
-    justify-content: space-between;
+    margin: 0, auto;
+    gap: 24px;
 }
 
 .about-us-item {
@@ -239,7 +238,7 @@ h3 {
 
 .list-imgs-whtrwedng {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 /* TEAM */
@@ -333,10 +332,6 @@ h3 {
 
 /* MODAL LIST BUTTON */
 
-.description-to-project{
-    padding: 16px;
-}
-
 .button-list {
     display: flex;
     gap: 24px;
@@ -356,7 +351,7 @@ h3 {
     padding-top: 12px;
     padding-left: 24px;
     padding-right: 24px;
-    border: 0px;
+    border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
 
@@ -397,7 +392,7 @@ h3 {
 
 .list-item-projects {
     display: flex;
-    /* gap: 15px; */
+    column-gap: 24px;
     row-gap: 48px;
     justify-content: space-evenly;
     margin-top: 84px;
@@ -412,4 +407,7 @@ h3 {
 .description-to-project {
     border: 1px solid #E7E9FC;
     border-top: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
