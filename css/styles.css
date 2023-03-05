@@ -359,6 +359,7 @@ h3 {
 .modal-btn-list:focus{
     color: var(--white);
     background: var(--ocean);
+    border-color: var(--ocean);
 }
 
 .container-buttons {
